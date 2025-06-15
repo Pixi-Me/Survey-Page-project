@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Code Camp Survey Project</title>
+    <link rel="stylesheet" href="freeccsurvey.css">
+</head>
+<body>
+    <div class="bg">
+    </div>
+<div class="content">
+        <h1 id="title">
+            Survey
+        </h1>
+        <p id="description">
+            <i>
+                This is a demo survey. Please answer all the questions with utmost honestly.
+            </i>
+        </p>
+
+    <main id="form">
+        <form id="survey-form" action="">
+            <h3 id="labels">
+                <label for="name" id="name-label">Name<span class="req">*</span></label><br>
+                <input type="text" id="name" name="name" placeholder="Enter Name" required>
+                <br>
+                <label for="email"
+                id="email-label">Email<span class="req">*</span></label><br>
+                <input type="email" id="email" name="mail" placeholder="Enter Email ID required">
+                <br>
+                <label for="number" id="number-label">Number<span class="req">*</span></label>
+                <input placeholder="Enter your number" type="number" id="number" name="number" maxlength="10" minlength="10" required>
+                <br>
+                <label for="dropdown">Gender<span class="req">*</span></label><br>
+                <select name="Gender" id="dropdown" requied>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+                <span class="ques">Age Group:</span>
+                <br>
+                <div class="option">
+                    <label><input type="radio" name="age-group" value="6-14">6-14</label>
+                    <br>
+                    <label><input type="radio" name="age-group" value="14-20">14-20</label>
+                    <br>
+                    <label><input type="radio" name="age-group" value="20-24">20-24</label>
+                    <br>
+                </div>
+                
+                <span class="ques">Preferred Contact Methods:(Check all that apply)</span>
+                <br>
+                <div class="option">
+                    <label><input type="checkbox" value="yes" name="email">Email</label>
+                    <br>
+                    <label><input type="checkbox" value="yes" name="phone">Phone</label>
+                    <br>
+                    <label><input type="checkbox" value="yes" name="sms">SMS</label>
+                    <br>
+                    <label><input type="checkbox" value="yes" name="Whatsapp">whatsapp</label>                
+                    <br><br>
+                    Any comments or suggestions?
+                    <br>
+                    <textarea name="feedback" id="feedback" placeholder="Enter here"></textarea>
+                    <input id="sub" type="submit">
+                </div>
+                
+                
+            </h3>
+            
+        </form>
+    </main>
+</div>
+
+
+     
+</body>
+</html>
