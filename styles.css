@@ -4,7 +4,7 @@
 }
 
 .bg{
-    background-image: url("bg.jpg");
+    background-image: url("./bg.jpg");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -33,7 +33,7 @@
     text-decoration-style: solid;
     text-shadow: 1px 1px 2px rgb(192, 88, 201);
 }
-.form{
+#form{
     position: absolute;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.481);
